@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 import onlineIcon from '../../icons/onlineIcon.png';
 import closeIcon from '../../icons/closeIcon.png';
@@ -9,7 +9,7 @@ const InfoBar = ({room}) => (
     <div className="infoBar">
         <div className="leftInnerContainer">
             <img className="onlineIcon" src={onlineIcon} alt="online" />
-            <h3>roomName</h3>
+            <h3>{room}</h3>
 
         </div>
         <div className="rightInnerContainer">
